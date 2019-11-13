@@ -34,21 +34,21 @@ body {
     width: 100%;
     min-width: 1160px;
     margin: 0 auto;
-    min-height: 500px;
+
+}
+
+
+.wrapper-inner {
+    margin: 0 60px;
+    background-color: #FAFAFA;
 }
 
 /* HEADER */
 
-.header {
-    margin: 0 60px;
-    background-color: #FAFAFA;
-
-}
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 40px;
     flex-wrap: wrap;
     padding: 40px 100px 0 100px;
@@ -230,8 +230,13 @@ body {
 
 .arrow-link {
     display: block;
+    margin-right: 20px;
 }
 
+
+.arrow-link:last-child {
+    margin-right: 0px;
+}
 
 .arrow-link-bg {
 
@@ -316,9 +321,15 @@ body {
     bottom: 0;
     width: 0;
     height: 0;
-    border-bottom: 430px solid #DF4625;
-    border-left: 395px solid transparent;
+    border-bottom: 429px solid #DF4625;
+    border-left: 402px solid transparent;
 }
+
+
+
+
+
+
 
 .header-bottom {
     padding-left: 160px;
